@@ -1,0 +1,77 @@
+html {
+    background: #17025d;
+    margin: 0;
+    text-align: center;
+}
+
+.formMain {
+    font-size: 24px;
+}
+
+.formContainer {}
+
+.formGroup {
+    width: 30%;
+    height: 300px;
+    margin: 50px auto;
+    background: rgb(255, 255, 255);
+    /* box-shadow: 5px 5px 10px #595757; */
+    padding: 50px;
+    border-radius: 16px;
+}
+
+.link input {
+    background: #dbdbdb;
+    outline: none;
+    margin: 10px;
+    border: none;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.link button {
+    padding: 11px 10px 6px 10px;
+    border: none;
+    background: #274bff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.link button:hover {
+    opacity: .8;
+}
+
+.shortDomain span {
+    padding: 11px 10px 6px 10px;
+    border-radius: 6px;
+    border: none;
+    margin: 0 2px;
+    cursor: pointer;
+    transition: all 0.3;
+    font-size: 16px;
+    background: #2e00c4;
+    color: #fff;
+}
+
+.shortDomain span:hover {
+    opacity: .8;
+}
+
+.linkList {
+    width: 30%;
+    margin: 10px auto;
+    background: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+}
+
+.linkIteam {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+}
+
+.linkTitle {
+    font-size: 18px;
+}
